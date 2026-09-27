@@ -131,7 +131,7 @@ public class Pacientes {
     }
 
     public void VerDatos() {
-        
+        System.out.println("-------------------------------------------");
         System.out.println(" TIPODOC: "+ this.tipo_documento +
                 " NRODOC: "+ this.nro_documento +
                 " NOMBRE: "+ this.nombre +
@@ -142,5 +142,6 @@ public class Pacientes {
                 " ALERGIAS: "+ this.alergias+ 
                 " TELEFONO: "+ this.telefono+
                 " CORREO: "+ this.correo);
+        System.out.println("-------------------------------------------");
     }
 }
